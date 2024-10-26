@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Center Image Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Gambar di tengah -->
+    <div class="fixed inset-0 flex items-center justify-center">
+      <img
+        src="https://via.placeholder.com/150"
+        alt="Contoh Gambar"
+        class="w-40 h-40 object-cover"
+      />
+    </div>
+
+    <!-- Konten lainnya -->
+    <main class="p-8">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+        tincidunt ligula, et efficitur risus...
+      </p>
+      <p class="mt-4">
+        Scroll down to see the image stays in the center of the screen.
+      </p>
+
+      <div class="mt-20 space-y-6">
+        <!-- Long content to create scroll effect -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      </div>
+    </main>
+  </body>
+</html>
