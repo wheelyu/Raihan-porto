@@ -31,12 +31,11 @@ const ContentWithImage = () => {
               className="overflow-hidden"
               style={{
                 borderRadius: "20%",
-                rotate: "20deg",
                 boxShadow: "20px 12px 25px 1px rgba(0, 0, 0, 0.4)",
               }}
             >
               <img
-                src="muti.jpg"
+                src="Raihan.jpg"
                 alt="Foto Profil"
                 className="w-full object-cover rounded-lg shadow-md scale-110 transform transition-transform duration-500 hover:scale-150 hover:cursor-pointer"
               />
@@ -60,7 +59,7 @@ const ContentWithImage = () => {
           }}
         >
           <div className="md:w-1/2 text-center  md:text-left">
-            <p className="text-xl font-bold mb-4 italic text-green-300 mt-10">
+            <p className="text-xl font-bold mb-4 italic text-blue-300 mt-10">
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
@@ -83,22 +82,23 @@ const ContentWithImage = () => {
                 repeat={Infinity}
               />
             </p>
-            <h2 className="text-xl md:text-4xl font-bold mb-4">
-              I am Mutiara Pandiangan
-            </h2>
+            <h2 className="text-xl md:text-4xl font-bold mb-4">I am Raihan</h2>
             <p className="text-gray-700 mb-6 w-3/4 md:w-full mx-auto md:w-max-md text-justify text-xs md:text-base">
-              Saya sebagai mahasiswa aktif Insititut Teknologi Sumatera Program
-              Studi Rekayasa Kehutanan yang memiliki pemahaman cara pandang
-              holistik kehutanan baik dari segi ekologi, ekonomi dan sosial.
+              Hard working and motivated commis chef, have passion for foods and
+              cooking skills with 1 years of professional experience assisting
+              chefs with food preparation processes and various kitchen duties
+              according to food safety and hygiene regulations. Takes direction
+              well and can work with team under pressure while maintaining a
+              positive attitude.
             </p>
             <button
-              className="overflow-hidden relative w-36 p-2 h-12 bg-green-500 text-white border-none rounded-md text-xl font-bold cursor-pointer z-0 group active:translate-y-[5px] transition-all ease-in-out duration-200"
+              className="overflow-hidden relative w-36 p-2 h-12 bg-blue-500 text-white border-none rounded-md text-xl font-bold cursor-pointer z-0 group active:translate-y-[5px] transition-all ease-in-out duration-200"
               onClick={handleDownload}
             >
               Resume
-              <span className="absolute w-40 h-32 -top-8 -left-2 bg-green-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-              <span className="absolute w-40 h-32 -top-8 -left-2 bg-green-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-              <span className="absolute w-40 h-32 -top-8 -left-2 bg-green-700 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+              <span className="absolute w-40 h-32 -top-8 -left-2 bg-blue-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+              <span className="absolute w-40 h-32 -top-8 -left-2 bg-blue-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+              <span className="absolute w-40 h-32 -top-8 -left-2 bg-blue-700 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
               <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 ">
                 Download
               </span>
@@ -126,12 +126,11 @@ const ContentWithImage = () => {
               className="overflow-hidden"
               style={{
                 borderRadius: "20%",
-                rotate: "20deg",
                 boxShadow: "0 48px 50px 6px rgba(0, 0, 0, 0.4)",
               }}
             >
               <img
-                src="muti.jpg"
+                src="Raihan.jpg"
                 alt="Foto Profil"
                 className="w-full object-cover rounded-lg shadow-md scale-110 transform transition-transform duration-500 hover:scale-150 hover:cursor-pointer"
               />

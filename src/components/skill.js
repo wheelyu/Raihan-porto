@@ -41,7 +41,7 @@ const SkillSection = () => {
 
   return (
     <div
-      className="min-h-screen bg-gradient-to-b from-green-800 to-slate-100 p-8 relative z-20 mt-[-3px]"
+      className="min-h-screen bg-gradient-to-b from-blue-800 to-slate-100 p-8 relative z-20 mt-[-3px]"
       id="skill"
     >
       <h2 className="text-8xl font-bold text-center mb-8 pt-56 pb-8">
@@ -54,7 +54,7 @@ const SkillSection = () => {
             onClick={() => showSkillInfo(skill)}
             data-aos="fade-up"
             data-aos-delay={index * 200}
-            className="flex flex-col items-center justify-center p-6 text-black border-black md:text-green-400 hover:text-white border md:border-green-400 hover:border-white border-b-8 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-8 hover:border-b active:opacity-75 outline-none duration-300 group"
+            className="flex flex-col items-center justify-center p-6 text-black border-black md:text-blue-400 hover:text-white border md:border-blue-400 hover:border-white border-b-8 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-8 hover:border-b active:opacity-75 outline-none duration-300 group"
           >
             <div className="text-6xl mb-2">{skill.icon}</div>
             <span className="text-lg font-semibold">{skill.name}</span>

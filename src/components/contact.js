@@ -108,7 +108,7 @@ const ContactPage = () => {
       <div className="container mx-auto p-8">
         <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Bagian Kiri: Informasi Kontak */}
-          <div className="w-full md:w-3/5 bg-slate-100 p-8 text-green-800 text-start">
+          <div className="w-full md:w-3/5 bg-slate-100 p-8 text-blue-800 text-start">
             <h2 className="text-5xl font-bold mb-4">Contact Information</h2>
             <div className="mb-4">
               <h3 className="font-semibold">Email</h3>
@@ -127,8 +127,8 @@ const ContactPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="floater w-full h-full absolute top-0 left-0 bg-green-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
-                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-green-800 rounded-full md:text-green-800 text-white hover:text-green-800 duration-300">
+                  <div className="floater w-full h-full absolute top-0 left-0 bg-blue-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
+                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-blue-800 rounded-full md:text-blue-800 text-white hover:text-blue-800 duration-300">
                     <FaInstagram size={24} />
                   </div>
                 </a>
@@ -138,8 +138,8 @@ const ContactPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="floater w-full h-full absolute top-0 left-0 bg-green-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
-                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-green-800 rounded-full text-green-800 hover:text-green-800 duration-300">
+                  <div className="floater w-full h-full absolute top-0 left-0 bg-blue-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
+                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-blue-800 rounded-full text-blue-800 hover:text-blue-800 duration-300">
                     <FaInstagram size={24} />
                   </div>
                 </a>
@@ -149,8 +149,8 @@ const ContactPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="floater w-full h-full absolute top-0 left-0 bg-green-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
-                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-green-800 rounded-full text-green-800 hover:text-green-800 duration-300">
+                  <div className="floater w-full h-full absolute top-0 left-0 bg-blue-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
+                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-blue-800 rounded-full text-blue-800 hover:text-blue-800 duration-300">
                     <FaInstagram size={24} />
                   </div>
                 </a>
@@ -160,8 +160,8 @@ const ContactPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="floater w-full h-full absolute top-0 left-0 bg-green-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
-                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-green-800 rounded-full text-green-800 hover:text-green-800 duration-300">
+                  <div className="floater w-full h-full absolute top-0 left-0 bg-blue-800 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
+                  <div className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-blue-800 rounded-full text-blue-800 hover:text-blue-800 duration-300">
                     <FaInstagram size={24} />
                   </div>
                 </a>
@@ -181,7 +181,7 @@ const ContactPage = () => {
                   placeholder="example: John Doe"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 {errors.name && (
                   <p className="text-red-500 text-sm">{errors.name}</p>
@@ -195,7 +195,7 @@ const ContactPage = () => {
                   placeholder="example: 7sC5A@example.com"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 {errors.email && (
                   <p className="text-red-500 text-sm">{errors.email}</p>
@@ -209,7 +209,7 @@ const ContactPage = () => {
                   placeholder="example: 08123456789"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 {errors.phone && (
                   <p className="text-red-500 text-sm">{errors.phone}</p>
@@ -223,7 +223,7 @@ const ContactPage = () => {
                   placeholder="example: Hi, I'm interested in your product..."
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 ></textarea>
                 {errors.message && (
                   <p className="text-red-500 text-sm">{errors.message}</p>
@@ -231,7 +231,7 @@ const ContactPage = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors"
+                className="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors"
               >
                 Send Message
               </button>

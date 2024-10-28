@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed z-50 w-full top-0 transition-all duration-300 ease-in ${
-        isScrolled ? "bg-green-800 p-5 md:p-2" : "bg-slate-100 p-4"
+        isScrolled ? "bg-blue-800 p-5 md:p-2" : "bg-slate-100 p-4"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
             className={`transition-all py-2 rounded ${
               isScrolled
                 ? "text-white hover-lines px-5"
-                : "text-green-500 px-3 hover-line"
+                : "text-blue-500 px-3 hover-line"
             }`}
           >
             Home
@@ -55,7 +55,7 @@ const Navbar = () => {
             className={`transition-all px-3 py-2 ${
               isScrolled
                 ? "text-white hover-lines"
-                : "text-green-500 px-3 hover-line"
+                : "text-blue-500 px-3 hover-line"
             }`}
           >
             About
@@ -65,7 +65,7 @@ const Navbar = () => {
             className={`transition-all px-3 py-2 ${
               isScrolled
                 ? "text-white hover-lines"
-                : "text-green-500 px-3 hover-line"
+                : "text-blue-500 px-3 hover-line"
             }`}
           >
             Skill
@@ -121,14 +121,14 @@ const Navbar = () => {
           <button
             onClick={toggleMenu}
             className={`text-3xl ${
-              isScrolled ? "text-white" : "text-green-800"
+              isScrolled ? "text-white" : "text-blue-800"
             } focus:outline-none`}
           >
             <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
           </button>
           <h1
             className={`text-xl text-center mx-auto ${
-              isScrolled ? "text-white" : "text-green-800"
+              isScrolled ? "text-white" : "text-blue-800"
             } focus:outline-none`}
           >
             Mutiara Portofolio
@@ -141,21 +141,21 @@ const Navbar = () => {
             <div className="flex flex-col items-center py-4 space-y-4">
               <a
                 href="#home"
-                className="text-green-500 text-lg hover:text-green-700"
+                className="text-blue-500 text-lg hover:text-blue-700"
                 onClick={toggleMenu}
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="text-green-500 text-lg hover:text-green-700"
+                className="text-blue-500 text-lg hover:text-blue-700"
                 onClick={toggleMenu}
               >
                 About
               </a>
               <a
                 href="#skill"
-                className="text-green-500 text-lg hover:text-green-700"
+                className="text-blue-500 text-lg hover:text-blue-700"
                 onClick={toggleMenu}
               >
                 Skill
