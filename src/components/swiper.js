@@ -11,7 +11,7 @@ const SwiperCard = () => {
     {
       image: "muti.jpg",
       title:
-        "Master Of Ceremonies Indonesian Foresty Student Seminar Regional Forum II",
+        "Diploma Awards Westren Seafood Main Course WithPasta at 5Th SIAL INTERFOOD 2023",
       description:
         "Membawa acara dan memberikan arahan kepada peserta, Memanajemen waktu dalam rangkaian acara Memantau serta bertanggung jawab dalam kegiatan pelaksanaan sesuai rundown yang telah dibuat ",
     },
