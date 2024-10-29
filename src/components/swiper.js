@@ -9,14 +9,14 @@ import "swiper/css/pagination";
 const SwiperCard = () => {
   const slides = [
     {
-      image: "muti.jpg",
+      image: "Raihan.jpg",
       title:
         "Diploma Awards Westren Seafood Main Course WithPasta at 5Th SIAL INTERFOOD 2023",
       description:
         "Membawa acara dan memberikan arahan kepada peserta, Memanajemen waktu dalam rangkaian acara Memantau serta bertanggung jawab dalam kegiatan pelaksanaan sesuai rundown yang telah dibuat ",
     },
     {
-      image: "mutiara.jpg",
+      image: "Raihan.jpg",
       title: "Master Of Ceremonies Rimbawan Talk 4 ",
       description:
         "Membawa acara dan memberikan arahan kepada peserta Memanajemen waktu dalam rangkaian acara Memantau serta bertanggung jawab dalam kegiatan pelaksanaan sesuai rundown yang telah dibuat ",
