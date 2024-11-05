@@ -104,7 +104,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 flex items-center justify-center relative z-20">
+    <div className="min-h-screen bg-yellow-400 flex items-center justify-center relative z-20">
       <div className="container mx-auto p-8">
         <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
           {/* Bagian Kiri: Informasi Kontak */}

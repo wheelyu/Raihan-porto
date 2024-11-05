@@ -14,15 +14,17 @@ function App() {
   React.useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
+      localStorage.setItem("isVisited", "true");
     }, 2000);
   }, []);
-
-  if (isLoading) {
-    return (
-      <div className="loader-container">
-        <div className="loader"></div>
-      </div>
-    );
+  if (localStorage.getItem("isVisited") === null) {
+    if (isLoading) {
+      return (
+        <div className="loader-container">
+          <div className="loader"></div>
+        </div>
+      );
+    }
   }
   const phoneNumber = "6289637774178"; // Ganti dengan nomor WhatsApp Anda, pastikan menggunakan format internasional
   const message = "Halo! Saya ingin bertanya tentang..."; // Pesan default yang akan dikirim

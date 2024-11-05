@@ -27,13 +27,7 @@ const ContentWithImage = () => {
           }}
         >
           <div className="w-40 md:w-96 mt-2 md:mt-0 ">
-            <div
-              className="overflow-hidden"
-              style={{
-                borderRadius: "20%",
-                boxShadow: "20px 12px 25px 1px rgba(0, 0, 0, 0.4)",
-              }}
-            >
+            <div className="overflow-hidden">
               <img
                 src="Raihan.jpg"
                 alt="Foto Profil"
@@ -122,17 +116,11 @@ const ContentWithImage = () => {
           }}
         >
           <div className="w-60 md:w-96 mt-10 md:mt-0 ">
-            <div
-              className="overflow-hidden"
-              style={{
-                borderRadius: "20%",
-                boxShadow: "0 48px 50px 6px rgba(0, 0, 0, 0.4)",
-              }}
-            >
+            <div className="">
               <img
-                src="Raihan.jpg"
+                src="Raihab.png"
                 alt="Foto Profil"
-                className="w-full object-cover rounded-lg shadow-md scale-110 transform transition-transform duration-500 hover:scale-150 hover:cursor-pointer"
+                className="w-full object-cover rounded-lg  scale-110 transform transition-transform duration-500  hover:scale-150 hover:cursor-pointer raihan"
               />
             </div>
           </div>

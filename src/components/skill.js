@@ -41,7 +41,7 @@ const SkillSection = () => {
 
   return (
     <div
-      className="min-h-screen bg-gradient-to-b from-blue-800 to-slate-100 p-8 relative z-20 mt-[-3px]"
+      className="min-h-screen bg-gradient-to-b from-blue-800 to-yellow-400 p-8 relative z-20 mt-[-3px]"
       id="skill"
     >
       <h2 className="text-8xl font-bold text-center mb-8 pt-56 pb-8">
